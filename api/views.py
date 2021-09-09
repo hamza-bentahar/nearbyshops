@@ -1,12 +1,11 @@
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from .serializers import ShopSerializer
+from .serializers import ShopSerializer, ShopUserSerializer
 from .models import Shop
 
 
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
 def api_overview(request):
     api_urls = {
         'preferred': '/preferred',
@@ -27,6 +26,20 @@ def shop_list(request):
 
 @api_view(['GET'])
 def shop_detail(request, shop_id):
-    shops = Shop.objects.get(id=shop_id)
-    serializer = ShopSerializer(shops, many=False)
+    shop = Shop.objects.get(id=shop_id)
+    serializer = ShopSerializer(shop, many=False)
+    return Response(serializer.data)
+
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def like_shop(request, shop_id):
+    data = {
+        "shop": shop_id,
+        "like": 1,
+        "user": request.user.id
+    }
+    serializer = ShopUserSerializer(data=data)
+    if serializer.is_valid():
+        serializer.save()
     return Response(serializer.data)
