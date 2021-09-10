@@ -1,45 +1,29 @@
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.authentication import SessionAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
+from rest_framework.views import APIView
+from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
 from .serializers import ShopSerializer, ShopUserSerializer
 from .models import Shop
 
 
-@api_view(['GET'])
-def api_overview(request):
-    api_urls = {
-        'preferred': '/preferred',
-        'preferredData': '/preferredData',
-        'nearby': '/nearby',
-        'like': '/like',
-        'dislike': '/dislike'
-    }
-    return Response(api_urls)
+class ShopList(ListAPIView):
+    queryset = Shop.objects.all()
+    serializer_class = ShopSerializer
 
 
-@api_view(['GET'])
-def shop_list(request):
-    shops = Shop.objects.all()
-    serializer = ShopSerializer(shops, many=True)
-    return Response(serializer.data)
+class ShopDetail(RetrieveAPIView):
+    queryset = Shop.objects.all()
+    serializer_class = ShopSerializer
 
 
-@api_view(['GET'])
-def shop_detail(request, shop_id):
-    shop = Shop.objects.get(id=shop_id)
-    serializer = ShopSerializer(shop, many=False)
-    return Response(serializer.data)
+class LikeShop(APIView):
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
 
-
-@api_view(['POST'])
-@permission_classes([IsAuthenticated])
-def like_shop(request, shop_id):
-    data = {
-        "shop": shop_id,
-        "like": 1,
-        "user": request.user.id
-    }
-    serializer = ShopUserSerializer(data=data)
-    if serializer.is_valid():
-        serializer.save()
-    return Response(serializer.data)
+    def post(self, request, shop_pk):
+        data = {'shop': shop_pk, 'like': 1, 'user': self.request.user.id}
+        serializer = ShopUserSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+        return Response(serializer.data)

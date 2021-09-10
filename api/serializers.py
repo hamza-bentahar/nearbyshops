@@ -5,10 +5,10 @@ from .models import Shop, ShopUser
 class ShopSerializer(serializers.ModelSerializer):
     class Meta:
         model = Shop
-        fields = '__all__'
+        fields = ['id', 'picture', 'name', 'email', 'city', 'longitude', 'latitude']
 
 
 class ShopUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = ShopUser
-        fields = '__all__'
+        fields = ['like', 'user', 'shop']

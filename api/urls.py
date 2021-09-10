@@ -1,10 +1,8 @@
 from django.urls import path
-
-from . import views
+from api.views import ShopList, ShopDetail, LikeShop
 
 urlpatterns = [
-    path('', views.api_overview, name='api-overview'),
-    path('shops/', views.shop_list, name='shop-list'),
-    path('shops/<str:shop_id>/', views.shop_detail, name='shop-detail'),
-    path('shops/<str:shop_id>/like/', views.like_shop, name='shop-like'),
+    path('shops/', ShopList.as_view(), name='shop-list'),
+    path('shops/<str:pk>/', ShopDetail.as_view(), name='shop-detail'),
+    path('shops/<str:shop_pk>/like/', LikeShop.as_view(), name='shop-like'),
 ]
