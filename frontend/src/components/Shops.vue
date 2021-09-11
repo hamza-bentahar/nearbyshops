@@ -8,7 +8,7 @@
     <v-row justify="center">
       <v-col>
         <v-pagination
-          v-model="page"
+          :value="page"
           :length="shops.total_pages"
           :total-visible="7"
           @input="next"
@@ -29,8 +29,12 @@ export default {
   },
   data: () => ({
     shops: {},
-    page: 1,
   }),
+  computed: {
+    page() {
+      return parseInt(this.$route.query.page, 10) || 1;
+    },
+  },
   async mounted() {
     await this.fetchShops();
   },
@@ -47,8 +51,14 @@ export default {
         console.log(e);
       }
     },
-    async next(value) {
-      this.page = value;
+    next(value) {
+      if (parseInt(this.$route.query.page, 10) !== value) {
+        this.$router.push({ path: '/', query: { page: value } });
+      }
+    },
+  },
+  watch: {
+    async page() {
       await this.fetchShops();
     },
   },
