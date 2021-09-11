@@ -1,6 +1,7 @@
 module.exports = {
   outputDir: 'dist',
   assetsDir: 'static',
+
   // baseUrl: IS_PRODUCTION
   // ? 'http://cdn123.com'
   // : '/',
@@ -13,7 +14,11 @@ module.exports = {
       '/api*': {
         // Forward frontend dev server request for /api to django dev server
         target: 'http://localhost:8000/',
-      }
-    }
-  }
-}
+      },
+    },
+  },
+
+  transpileDependencies: [
+    'vuetify',
+  ],
+};
