@@ -3,7 +3,7 @@ from .models import Shop, ShopUser
 
 
 class ShopSerializer(serializers.ModelSerializer):
-    distance = serializers.DecimalField(10,2)
+    distance = serializers.DecimalField(10, 2)
 
     class Meta:
         model = Shop

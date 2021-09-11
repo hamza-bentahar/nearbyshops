@@ -8,13 +8,17 @@ from .models import Shop
 
 
 class ShopList(ListAPIView):
-    geo_long = -6.8150925
-    geo_lat = 33.916744
-    query = f"SELECT *, " \
-            f"(((acos(sin(({geo_lat}*pi()/180)) * sin((`latitude`*pi()/180)) + cos(({geo_lat}*pi()/180)) * cos((`latitude`*pi()/180)) * cos((({geo_long}- `longitude`) * pi()/180)))) * 180/pi()) * 60 * 1.1515 * 1.609344) as distance " \
-            f"FROM `api_shop` ORDER BY distance"
-    queryset = Shop.objects.raw(query)
     serializer_class = ShopSerializer
+
+    def get_queryset(self):
+        params = self.request.query_params
+        if 'geo_lat' in params and 'geo_long' in params:
+            query = "SELECT *, " \
+                    "(((acos(sin((%s*pi()/180)) * sin((`latitude`*pi()/180)) + cos((%s*pi()/180)) * cos((`latitude`*pi()/180)) * cos(((%s- `longitude`) * pi()/180)))) * 180/pi()) * 60 * 1.1515 * 1.609344) as distance " \
+                    "FROM `api_shop` ORDER BY distance"
+            return Shop.objects.raw(query, [params['geo_lat'], params['geo_lat'], params['geo_long']])
+        query = "SELECT *, -1 as distance FROM `api_shop`"
+        return Shop.objects.raw(query)
 
 
 class ShopDetail(RetrieveAPIView):
