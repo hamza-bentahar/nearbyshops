@@ -5,6 +5,11 @@ from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from .serializers import ShopSerializer, ShopUserSerializer
 from .models import Shop
+from django.views.generic import TemplateView
+from django.views.decorators.cache import never_cache
+
+
+index_view = never_cache(TemplateView.as_view(template_name='index.html'))
 
 
 class ShopList(ListAPIView):
