@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from '../axiosConfig';
 import Shop from './Shop.vue';
 
 export default {
