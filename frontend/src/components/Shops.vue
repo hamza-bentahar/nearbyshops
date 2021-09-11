@@ -1,5 +1,20 @@
 <template>
-  <div>
+  <div v-if="isObjectEmpty(shops)" class="text-center">
+    <v-row justify="center">
+      <v-col class="text-subtitle-1 text-center" cols="12">
+        Waiting for Location authorization
+      </v-col>
+      <v-col>
+        <v-progress-linear
+          color="deep-purple accent-4"
+          indeterminate
+          rounded
+          height="6"
+        ></v-progress-linear>
+      </v-col>
+    </v-row>
+  </div>
+  <div v-else>
     <v-row>
       <v-col cols="12" sm="6" md="4" v-for="shop in shops.results" :key="shop.id">
         <shop :value="shop"></shop>
@@ -29,6 +44,7 @@ export default {
   },
   data: () => ({
     shops: {},
+    position: null,
   }),
   computed: {
     page() {
@@ -36,16 +52,39 @@ export default {
     },
   },
   async mounted() {
-    await this.fetchShops();
+    await this.userLocation();
   },
   methods: {
+    isObjectEmpty(obj) {
+      return Object.keys(obj).length === 0;
+    },
+    userLocation() {
+      // Prompt the user to confirm to share his location
+      // If the user accepts, we display the shops sorted by distance
+      // Else, we display the shops sorted by id
+      if (navigator.geolocation) {
+        // Send an ajax request with the user's latitude and longitude
+        navigator.geolocation.getCurrentPosition(async (position) => {
+          this.position = position;
+          await this.fetchShops();
+        }, async () => {
+          // Display shops by order if user does not want to share location
+          await this.fetchShops();
+        });
+      } else {
+        this.error = 'Geolocation is not supported by this browser';
+      }
+    },
     async fetchShops() {
       try {
-        const shops = await axios.get('/api/shops', {
-          params: {
-            page: this.page,
-          },
-        });
+        const params = {
+          page: this.page,
+        };
+        if (this.position) {
+          params.geo_lat = this.position.coords.latitude;
+          params.geo_long = this.position.coords.longitude;
+        }
+        const shops = await axios.get('/api/shops', { params });
         this.shops = shops.data;
       } catch (e) {
         console.log(e);
