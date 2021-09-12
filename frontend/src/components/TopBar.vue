@@ -1,34 +1,27 @@
 <template>
   <div>
     <snackbar></snackbar>
-    <v-app-bar app color="primary" dark>
+    <v-app-bar app color="primary">
       <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        <router-link to="/">
+          <v-img
+            alt="Vuetify Logo"
+            class="shrink mr-2"
+            contain
+            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+            transition="scale-transition"
+            width="40"
+          />
+        </router-link>
       </div>
 
       <v-spacer></v-spacer>
       <div v-if="!isAuthenticated">
-        <v-btn to="/login">Login</v-btn>
-        <v-btn to="/register">Register</v-btn>
+        <v-btn to="/login" raised elevation="4" class="ma-3">Login</v-btn>
+        <v-btn to="/register" raised elevation="4" class="ma-3">Register</v-btn>
       </div>
       <div v-else>
-        <v-btn @click="logout">Logout</v-btn>
+        <v-btn @click="logout" raised elevation="4" class="ma-3">Logout</v-btn>
       </div>
     </v-app-bar>
   </div>
