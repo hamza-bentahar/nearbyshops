@@ -41,6 +41,7 @@ export default {
     async userLogin() {
       try {
         await this.login(this.loginForm);
+        await this.$router.push({ name: 'Home' });
       } catch (e) {
         this.errorMessages = e.response.data.detail;
       }

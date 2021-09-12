@@ -66,9 +66,8 @@ export default {
   methods: {
     async register() {
       try {
-        console.log('Register');
-        const registration = await axios.post('/api/register/', this.registerForm);
-        console.log(registration);
+        await axios.post('/api/register/', this.registerForm);
+        await this.$router.push('/login');
       } catch (e) {
         if (e.response && e.response.status === 400) {
           this.$refs.observer.setErrors(e.response.data);
