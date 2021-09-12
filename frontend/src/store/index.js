@@ -18,6 +18,11 @@ export default new Vuex.Store({
     },
   },
   actions: {
+    async logout({ commit }) {
+      await axios.get('/api/logout/');
+      commit('SET_AUTHENTICATED', false);
+      commit('SET_USER', null);
+    },
     async login({ commit, dispatch }, payload) {
       try {
         await dispatch('setCsrf');

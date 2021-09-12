@@ -10,7 +10,7 @@ from django.views.decorators.cache import never_cache
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 import json
 
 index_view = never_cache(TemplateView.as_view(template_name='index.html'))
@@ -22,6 +22,12 @@ def set_csrf_token(request):
     This will be `/api/set-csrf-cookie/` on `urls.py`
     """
     return JsonResponse({"details": "CSRF cookie set"})
+
+
+class Logout(APIView):
+    def get(self, request):
+        logout(request)
+        return Response(status=200)
 
 
 class IsUserAuthenticated(APIView):

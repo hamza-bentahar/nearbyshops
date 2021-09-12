@@ -24,12 +24,18 @@
 
     <v-btn to="/login">Login</v-btn>
     <v-btn to="/">Register</v-btn>
+    <v-btn @click="logout">Logout</v-btn>
   </v-app-bar>
 </template>
 
 <script>
+import { mapActions } from 'vuex';
+
 export default {
   name: 'TopBar',
+  methods: {
+    ...mapActions(['logout']),
+  },
 };
 </script>
 
