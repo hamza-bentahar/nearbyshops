@@ -23,18 +23,29 @@
     </v-list-item>
 
     <v-card-actions>
-      <v-btn outlined rounded text>Like</v-btn>
+      <v-btn outlined rounded text @click="like">Like</v-btn>
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
+import axios from '../axiosConfig';
+
 export default {
   name: 'Shop',
   props: {
     value: {
       type: Object,
       required: true,
+    },
+  },
+  methods: {
+    async like() {
+      try {
+        await axios.post(`/api/shops/${this.value.id}/like/`, {});
+      } catch (e) {
+        console.log(e);
+      }
     },
   },
 };

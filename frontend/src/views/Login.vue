@@ -40,8 +40,7 @@ export default {
     async login() {
       try {
         this.setCSRF();
-        const user = await axios.post('/api/login/', this.loginForm);
-        console.log(user);
+        await axios.post('/api/login/', this.loginForm);
       } catch (e) {
         console.log(e);
       }
