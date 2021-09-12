@@ -38,8 +38,12 @@ export default {
   },
   methods: {
     ...mapActions(['login']),
-    userLogin() {
-      this.login(this.loginForm);
+    async userLogin() {
+      try {
+        await this.login(this.loginForm);
+      } catch (e) {
+        this.errorMessages = e.response.data.detail;
+      }
     },
   },
 };

@@ -24,15 +24,11 @@ export default new Vuex.Store({
       commit('SET_USER', null);
     },
     async login({ commit, dispatch }, payload) {
-      try {
-        await dispatch('setCsrf');
-        const isAuth = await axios.post('/api/login/', payload);
-        if (isAuth.data.detail === 'authenticated') {
-          commit('SET_AUTHENTICATED', true);
-          commit('SET_USER', isAuth.data.user);
-        }
-      } catch (e) {
-        console.log(e);
+      await dispatch('setCsrf');
+      const isAuth = await axios.post('/api/login/', payload);
+      if (isAuth.data.detail === 'authenticated') {
+        commit('SET_AUTHENTICATED', true);
+        commit('SET_USER', isAuth.data.user);
       }
     },
     async setCsrf() {

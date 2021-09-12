@@ -71,7 +71,6 @@ export default {
         console.log(registration);
       } catch (e) {
         if (e.response && e.response.status === 400) {
-          console.log(e.response.data);
           this.$refs.observer.setErrors(e.response.data);
         }
       }
