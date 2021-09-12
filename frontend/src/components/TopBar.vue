@@ -36,9 +36,6 @@ import { mapActions, mapGetters } from 'vuex';
 
 export default {
   name: 'TopBar',
-  mounted() {
-    console.log(this.isAuthenticated);
-  },
   computed: {
     ...mapGetters(['isAuthenticated']),
   },

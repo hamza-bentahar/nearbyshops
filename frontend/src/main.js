@@ -12,7 +12,4 @@ new Vue({
   store,
   vuetify,
   render: (h) => h(App),
-  async mounted() {
-    await this.$store.dispatch('checkAuthentication');
-  },
 }).$mount('#app');
