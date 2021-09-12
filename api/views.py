@@ -24,6 +24,19 @@ def set_csrf_token(request):
     return JsonResponse({"details": "CSRF cookie set"})
 
 
+class IsUserAuthenticated(APIView):
+    def get(self, request):
+        if request.user.is_authenticated:
+            return JsonResponse({
+                "detail": "authenticated",
+                "user": str(request.user)
+            })
+        else:
+            return JsonResponse({
+                "detail": "unauthenticated"
+            })
+
+
 @require_POST
 def login_view(request):
     """
@@ -42,7 +55,8 @@ def login_view(request):
     if user is not None:
         login(request, user)
         return JsonResponse({
-            "detail": "Success"
+            "detail": "Success",
+            "user": str(user)
         })
     return JsonResponse(
         {"detail": "Invalid credentials"},
