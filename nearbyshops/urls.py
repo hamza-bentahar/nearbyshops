@@ -24,4 +24,5 @@ urlpatterns = [
     path('', index_view, name='index'),
     path('about/', index_view, name='about'),
     path('login/', index_view, name='login'),
+    path('register/', index_view, name='register'),
 ]

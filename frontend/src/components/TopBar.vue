@@ -23,7 +23,7 @@
     <v-spacer></v-spacer>
 
     <v-btn to="/login">Login</v-btn>
-    <v-btn to="/">Register</v-btn>
+    <v-btn to="/register">Register</v-btn>
     <v-btn @click="logout">Logout</v-btn>
   </v-app-bar>
 </template>

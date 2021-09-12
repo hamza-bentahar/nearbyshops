@@ -37,8 +37,7 @@ export default new Vuex.Store({
     },
     async setCsrf() {
       try {
-        const res = await axios.get('/api/set-csrf-cookie/');
-        console.log(res);
+        await axios.get('/api/set-csrf-cookie/');
       } catch (e) {
         console.log(e);
       }

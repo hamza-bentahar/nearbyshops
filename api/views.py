@@ -1,9 +1,9 @@
 from rest_framework.authentication import SessionAuthentication
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework.generics import ListAPIView, RetrieveAPIView
-from .serializers import ShopSerializer, ShopUserSerializer
+from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
+from .serializers import ShopSerializer, ShopUserSerializer, RegisterSerializer
 from .models import Shop
 from django.views.generic import TemplateView
 from django.views.decorators.cache import never_cache
@@ -11,6 +11,7 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.models import User
 import json
 
 index_view = never_cache(TemplateView.as_view(template_name='index.html'))
@@ -99,3 +100,9 @@ class LikeShop(APIView):
         if serializer.is_valid():
             serializer.save()
         return Response(serializer.data)
+
+
+class RegisterView(CreateAPIView):
+    queryset = User.objects.all()
+    permission_classes = (AllowAny,)
+    serializer_class = RegisterSerializer
