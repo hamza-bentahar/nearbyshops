@@ -1,20 +1,88 @@
 from rest_framework.authentication import SessionAuthentication
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework.generics import ListAPIView, RetrieveAPIView
-from .serializers import ShopSerializer, ShopUserSerializer
+from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
+from .serializers import ShopSerializer, ShopUserSerializer, RegisterSerializer
 from .models import Shop
+from django.views.generic import TemplateView
+from django.views.decorators.cache import never_cache
+from django.views.decorators.csrf import ensure_csrf_cookie
+from django.http import JsonResponse
+from django.views.decorators.http import require_POST
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.models import User
+import json
+
+index_view = never_cache(TemplateView.as_view(template_name='index.html'))
+
+
+@ensure_csrf_cookie
+def set_csrf_token(request):
+    """
+    This will be `/api/set-csrf-cookie/` on `urls.py`
+    """
+    return JsonResponse({"details": "CSRF cookie set"})
+
+
+class Logout(APIView):
+    def get(self, request):
+        logout(request)
+        return Response(status=200)
+
+
+class IsUserAuthenticated(APIView):
+    def get(self, request):
+        if request.user.is_authenticated:
+            return JsonResponse({
+                "detail": "authenticated",
+                "user": str(request.user)
+            })
+        else:
+            return JsonResponse({
+                "detail": "unauthenticated"
+            })
+
+
+@require_POST
+def login_view(request):
+    """
+    This will be `/api/login/` on `urls.py`
+    """
+    data = json.loads(request.body)
+    username = data.get('username')
+    password = data.get('password')
+    if username is None or password is None:
+        return JsonResponse({
+            "errors": {
+                "__all__": "Please enter both username and password"
+            }
+        }, status=400)
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        login(request, user)
+        return JsonResponse({
+            "detail": "authenticated",
+            "user": str(user)
+        })
+    return JsonResponse(
+        {"detail": "Invalid credentials"},
+        status=400,
+    )
 
 
 class ShopList(ListAPIView):
-    geo_long = -6.8150925
-    geo_lat = 33.916744
-    query = f"SELECT *, " \
-            f"(((acos(sin(({geo_lat}*pi()/180)) * sin((`latitude`*pi()/180)) + cos(({geo_lat}*pi()/180)) * cos((`latitude`*pi()/180)) * cos((({geo_long}- `longitude`) * pi()/180)))) * 180/pi()) * 60 * 1.1515 * 1.609344) as distance " \
-            f"FROM `api_shop` ORDER BY distance"
-    queryset = Shop.objects.raw(query)
     serializer_class = ShopSerializer
+
+    def get_queryset(self):
+        params = self.request.query_params
+        if 'geo_lat' in params and 'geo_long' in params:
+            query = "SELECT *, " \
+                    "(((acos(sin((%s*pi()/180)) * sin((`latitude`*pi()/180)) + cos((%s*pi()/180)) * cos((`latitude`*pi()/180)) * cos(((%s- `longitude`) * pi()/180)))) * 180/pi()) * 60 * 1.1515 * 1.609344) as distance " \
+                    "FROM `api_shop` ORDER BY distance"
+            return Shop.objects.raw(query, [params['geo_lat'], params['geo_lat'], params['geo_long']])
+        query = "SELECT *, -1 as distance FROM `api_shop`"
+        return Shop.objects.raw(query)
 
 
 class ShopDetail(RetrieveAPIView):
@@ -32,3 +100,9 @@ class LikeShop(APIView):
         if serializer.is_valid():
             serializer.save()
         return Response(serializer.data)
+
+
+class RegisterView(CreateAPIView):
+    queryset = User.objects.all()
+    permission_classes = (AllowAny,)
+    serializer_class = RegisterSerializer
