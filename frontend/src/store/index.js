@@ -1,15 +1,53 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import axios from '../axiosConfig';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    authenticated: false,
+    user: null,
   },
   mutations: {
+    SET_AUTHENTICATED: (state, value) => {
+      state.authenticated = value;
+    },
+    SET_USER: (state, value) => {
+      state.user = value;
+    },
   },
   actions: {
-  },
-  modules: {
+    async login({ commit, dispatch }, payload) {
+      try {
+        await dispatch('setCsrf');
+        const isAuth = await axios.post('/api/login/', payload);
+        if (isAuth.data.detail === 'authenticated') {
+          commit('SET_AUTHENTICATED', true);
+          commit('SET_USER', isAuth.data.user);
+        }
+      } catch (e) {
+        console.log(e);
+      }
+    },
+    async setCsrf() {
+      try {
+        const res = await axios.get('/api/set-csrf-cookie/');
+        console.log(res);
+      } catch (e) {
+        console.log(e);
+      }
+    },
+    async checkAuthentication({ commit }) {
+      try {
+        const isAuth = await axios.get('/api/isauthenticated/');
+        if (isAuth.data.detail === 'authenticated') {
+          commit('SET_AUTHENTICATED', true);
+          commit('SET_USER', isAuth.data.user);
+        }
+      } catch (e) {
+        console.log(e);
+      }
+    },
   },
 });

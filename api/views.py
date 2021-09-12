@@ -55,7 +55,7 @@ def login_view(request):
     if user is not None:
         login(request, user)
         return JsonResponse({
-            "detail": "Success",
+            "detail": "authenticated",
             "user": str(user)
         })
     return JsonResponse(
