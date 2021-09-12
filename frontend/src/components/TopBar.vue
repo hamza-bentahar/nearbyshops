@@ -1,41 +1,48 @@
 <template>
-  <v-app-bar app color="primary" dark>
-    <div class="d-flex align-center">
-      <v-img
-        alt="Vuetify Logo"
-        class="shrink mr-2"
-        contain
-        src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-        transition="scale-transition"
-        width="40"
-      />
+  <div>
+    <snackbar></snackbar>
+    <v-app-bar app color="primary" dark>
+      <div class="d-flex align-center">
+        <v-img
+          alt="Vuetify Logo"
+          class="shrink mr-2"
+          contain
+          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          transition="scale-transition"
+          width="40"
+        />
 
-      <v-img
-        alt="Vuetify Name"
-        class="shrink mt-1 hidden-sm-and-down"
-        contain
-        min-width="100"
-        src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-        width="100"
-      />
-    </div>
+        <v-img
+          alt="Vuetify Name"
+          class="shrink mt-1 hidden-sm-and-down"
+          contain
+          min-width="100"
+          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
+          width="100"
+        />
+      </div>
 
-    <v-spacer></v-spacer>
-    <div v-if="!isAuthenticated">
-      <v-btn to="/login">Login</v-btn>
-      <v-btn to="/register">Register</v-btn>
-    </div>
-    <div v-else>
-      <v-btn @click="logout">Logout</v-btn>
-    </div>
-  </v-app-bar>
+      <v-spacer></v-spacer>
+      <div v-if="!isAuthenticated">
+        <v-btn to="/login">Login</v-btn>
+        <v-btn to="/register">Register</v-btn>
+      </div>
+      <div v-else>
+        <v-btn @click="logout">Logout</v-btn>
+      </div>
+    </v-app-bar>
+  </div>
 </template>
 
 <script>
 import { mapActions, mapGetters } from 'vuex';
+import Snackbar from './Snackbar.vue';
 
 export default {
   name: 'TopBar',
+  components: {
+    Snackbar,
+  },
   computed: {
     ...mapGetters(['isAuthenticated']),
   },

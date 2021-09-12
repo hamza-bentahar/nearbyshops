@@ -8,6 +8,10 @@ export default new Vuex.Store({
   state: {
     authenticated: false,
     user: null,
+    snackbar: {
+      content: '',
+      color: '',
+    },
   },
   mutations: {
     SET_AUTHENTICATED: (state, value) => {
@@ -15,6 +19,10 @@ export default new Vuex.Store({
     },
     SET_USER: (state, value) => {
       state.user = value;
+    },
+    DISPLAY_SNACKBAR(state, payload) {
+      state.snackbar.content = payload.content;
+      state.snackbar.color = payload.color;
     },
   },
   getters: {

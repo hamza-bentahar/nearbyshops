@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex';
+import { mapActions, mapMutations } from 'vuex';
 
 export default {
   name: 'Login',
@@ -37,10 +37,12 @@ export default {
     };
   },
   methods: {
+    ...mapMutations(['DISPLAY_SNACKBAR']),
     ...mapActions(['login']),
     async userLogin() {
       try {
         await this.login(this.loginForm);
+        this.DISPLAY_SNACKBAR({ content: 'Login Successful', color: 'success' });
         await this.$router.push({ name: 'Home' });
       } catch (e) {
         this.errorMessages = e.response.data.detail;

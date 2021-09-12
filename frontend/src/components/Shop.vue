@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex';
 import axios from '../axiosConfig';
 
 export default {
@@ -40,10 +41,13 @@ export default {
     },
   },
   methods: {
+    ...mapMutations(['DISPLAY_SNACKBAR']),
     async like() {
       try {
         await axios.post(`/api/shops/${this.value.id}/like/`, {});
+        this.DISPLAY_SNACKBAR({ content: 'Shop Liked', color: 'success' });
       } catch (e) {
+        this.DISPLAY_SNACKBAR({ content: 'You should be authenticated to like a shop', color: 'error' });
         console.log(e);
       }
     },

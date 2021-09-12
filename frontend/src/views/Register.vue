@@ -41,6 +41,7 @@
 
 <script>
 import { ValidationObserver } from 'vee-validate';
+import { mapMutations } from 'vuex';
 import BaseInput from '../components/BaseInput.vue';
 import axios from '../axiosConfig';
 
@@ -64,9 +65,11 @@ export default {
     };
   },
   methods: {
+    ...mapMutations(['DISPLAY_SNACKBAR']),
     async register() {
       try {
         await axios.post('/api/register/', this.registerForm);
+        this.DISPLAY_SNACKBAR({ content: 'Registration Successful', color: 'success' });
         await this.$router.push('/login');
       } catch (e) {
         if (e.response && e.response.status === 400) {
