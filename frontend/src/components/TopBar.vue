@@ -21,18 +21,27 @@
     </div>
 
     <v-spacer></v-spacer>
-
-    <v-btn to="/login">Login</v-btn>
-    <v-btn to="/register">Register</v-btn>
-    <v-btn @click="logout">Logout</v-btn>
+    <div v-if="!isAuthenticated">
+      <v-btn to="/login">Login</v-btn>
+      <v-btn to="/register">Register</v-btn>
+    </div>
+    <div v-else>
+      <v-btn @click="logout">Logout</v-btn>
+    </div>
   </v-app-bar>
 </template>
 
 <script>
-import { mapActions } from 'vuex';
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
   name: 'TopBar',
+  mounted() {
+    console.log(this.isAuthenticated);
+  },
+  computed: {
+    ...mapGetters(['isAuthenticated']),
+  },
   methods: {
     ...mapActions(['logout']),
   },

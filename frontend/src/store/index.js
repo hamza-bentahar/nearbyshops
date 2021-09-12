@@ -17,6 +17,11 @@ export default new Vuex.Store({
       state.user = value;
     },
   },
+  getters: {
+    isAuthenticated(state) {
+      return state.authenticated;
+    },
+  },
   actions: {
     async logout({ commit }) {
       await axios.get('/api/logout/');
