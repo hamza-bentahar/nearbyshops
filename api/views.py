@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
 from .serializers import ShopSerializer, ShopUserSerializer, RegisterSerializer
-from .models import Shop
+from .models import Shop, ShopUser
 from django.views.generic import TemplateView
 from django.views.decorators.cache import never_cache
 from django.views.decorators.csrf import ensure_csrf_cookie
@@ -100,7 +100,8 @@ class LikedShopList(ListAPIView):
                     "INNER JOIN `api_shopuser` on `api_shop`.id = `api_shopuser`.shop_id " \
                     "WHERE user_id = %s " \
                     "ORDER BY distance"
-            return Shop.objects.raw(query, [params['geo_lat'], params['geo_lat'], params['geo_long'], self.request.user.id])
+            return Shop.objects.raw(query,
+                                    [params['geo_lat'], params['geo_lat'], params['geo_long'], self.request.user.id])
         query = "SELECT *, -1 as distance " \
                 "FROM api_shop " \
                 "INNER JOIN api_shopuser on api_shop.id = api_shopuser.shop_id " \
@@ -111,6 +112,17 @@ class LikedShopList(ListAPIView):
 class ShopDetail(RetrieveAPIView):
     queryset = Shop.objects.all()
     serializer_class = ShopSerializer
+
+
+class UnlikeShop(APIView):
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, shop_pk):
+        ShopUser.objects.filter(**{'shop': shop_pk, 'user': self.request.user.id}).delete()
+        return Response({
+            "details": "deleted"
+        })
 
 
 class LikeShop(APIView):
