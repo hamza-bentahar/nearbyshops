@@ -7,10 +7,14 @@ from django.contrib.auth.password_validation import validate_password
 
 class ShopSerializer(serializers.ModelSerializer):
     distance = serializers.DecimalField(10, 2)
+    liked = serializers.SerializerMethodField(method_name='is_liked')
 
     class Meta:
         model = Shop
-        fields = ['id', 'picture', 'name', 'email', 'city', 'longitude', 'latitude', 'distance']
+        fields = ['id', 'picture', 'name', 'email', 'city', 'longitude', 'latitude', 'distance', 'liked']
+
+    def is_liked(self, shop):
+        return shop.users.filter(id=self.context['request'].user.id).exists()
 
 
 class ShopUserSerializer(serializers.ModelSerializer):
