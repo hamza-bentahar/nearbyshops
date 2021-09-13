@@ -2,7 +2,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Gushkool",
             "email": "leilaware@gushkool.com",
             "city": "Rabat",
@@ -13,7 +13,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Datagene",
             "email": "leilaware@datagene.com",
             "city": "Rabat",
@@ -24,7 +24,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Silodyne",
             "email": "leilaware@silodyne.com",
             "city": "Rabat",
@@ -35,7 +35,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Canopoly",
             "email": "leilaware@canopoly.com",
             "city": "Rabat",
@@ -46,7 +46,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sonique",
             "email": "leilaware@sonique.com",
             "city": "Rabat",
@@ -57,7 +57,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Quiltigen",
             "email": "leilaware@quiltigen.com",
             "city": "Rabat",
@@ -68,7 +68,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Infotrips",
             "email": "leilaware@infotrips.com",
             "city": "Rabat",
@@ -79,7 +79,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Biflex",
             "email": "leilaware@biflex.com",
             "city": "Rabat",
@@ -90,7 +90,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Permadyne",
             "email": "leilaware@permadyne.com",
             "city": "Rabat",
@@ -101,7 +101,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bunga",
             "email": "leilaware@bunga.com",
             "city": "Rabat",
@@ -112,7 +112,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Vendblend",
             "email": "leilaware@vendblend.com",
             "city": "Rabat",
@@ -123,7 +123,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Strezzo",
             "email": "leilaware@strezzo.com",
             "city": "Rabat",
@@ -134,7 +134,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Multiflex",
             "email": "leilaware@multiflex.com",
             "city": "Rabat",
@@ -145,7 +145,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Amtas",
             "email": "leilaware@amtas.com",
             "city": "Rabat",
@@ -156,7 +156,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Medmex",
             "email": "leilaware@medmex.com",
             "city": "Rabat",
@@ -167,7 +167,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Limozen",
             "email": "leilaware@limozen.com",
             "city": "Rabat",
@@ -178,7 +178,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Securia",
             "email": "leilaware@securia.com",
             "city": "Rabat",
@@ -189,7 +189,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Enerforce",
             "email": "leilaware@enerforce.com",
             "city": "Rabat",
@@ -200,7 +200,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Earwax",
             "email": "leilaware@earwax.com",
             "city": "Rabat",
@@ -211,7 +211,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Cablam",
             "email": "leilaware@cablam.com",
             "city": "Rabat",
@@ -222,7 +222,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Emoltra",
             "email": "leilaware@emoltra.com",
             "city": "Rabat",
@@ -233,7 +233,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Tubalum",
             "email": "leilaware@tubalum.com",
             "city": "Rabat",
@@ -244,7 +244,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Toyletry",
             "email": "leilaware@toyletry.com",
             "city": "Rabat",
@@ -255,7 +255,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comveyor",
             "email": "leilaware@comveyor.com",
             "city": "Rabat",
@@ -266,7 +266,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Techmania",
             "email": "leilaware@techmania.com",
             "city": "Rabat",
@@ -277,7 +277,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Peticular",
             "email": "leilaware@peticular.com",
             "city": "Rabat",
@@ -288,7 +288,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Teraprene",
             "email": "leilaware@teraprene.com",
             "city": "Rabat",
@@ -299,7 +299,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Quarex",
             "email": "leilaware@quarex.com",
             "city": "Rabat",
@@ -310,7 +310,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Kiggle",
             "email": "leilaware@kiggle.com",
             "city": "Rabat",
@@ -321,7 +321,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Amtap",
             "email": "leilaware@amtap.com",
             "city": "Rabat",
@@ -332,7 +332,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Maxemia",
             "email": "leilaware@maxemia.com",
             "city": "Rabat",
@@ -343,7 +343,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Splinx",
             "email": "leilaware@splinx.com",
             "city": "Rabat",
@@ -354,7 +354,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Plexia",
             "email": "leilaware@plexia.com",
             "city": "Rabat",
@@ -365,7 +365,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zytrax",
             "email": "leilaware@zytrax.com",
             "city": "Rabat",
@@ -376,7 +376,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Nebulean",
             "email": "leilaware@nebulean.com",
             "city": "Rabat",
@@ -387,7 +387,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Chillium",
             "email": "leilaware@chillium.com",
             "city": "Rabat",
@@ -398,7 +398,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bitendrex",
             "email": "leilaware@bitendrex.com",
             "city": "Rabat",
@@ -409,7 +409,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Assitia",
             "email": "leilaware@assitia.com",
             "city": "Rabat",
@@ -420,7 +420,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Apexia",
             "email": "leilaware@apexia.com",
             "city": "Rabat",
@@ -431,7 +431,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Hopeli",
             "email": "leilaware@hopeli.com",
             "city": "Rabat",
@@ -442,7 +442,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Tingles",
             "email": "leilaware@tingles.com",
             "city": "Rabat",
@@ -453,7 +453,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Frosnex",
             "email": "leilaware@frosnex.com",
             "city": "Rabat",
@@ -464,7 +464,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Polarax",
             "email": "leilaware@polarax.com",
             "city": "Rabat",
@@ -475,7 +475,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Cujo",
             "email": "leilaware@cujo.com",
             "city": "Rabat",
@@ -486,7 +486,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Homelux",
             "email": "leilaware@homelux.com",
             "city": "Rabat",
@@ -497,7 +497,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Corecom",
             "email": "leilaware@corecom.com",
             "city": "Rabat",
@@ -508,7 +508,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Aquazure",
             "email": "leilaware@aquazure.com",
             "city": "Rabat",
@@ -519,7 +519,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bovis",
             "email": "leilaware@bovis.com",
             "city": "Rabat",
@@ -530,7 +530,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Nixelt",
             "email": "leilaware@nixelt.com",
             "city": "Rabat",
@@ -541,7 +541,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Combot",
             "email": "leilaware@combot.com",
             "city": "Rabat",
@@ -552,7 +552,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Radiantix",
             "email": "leilaware@radiantix.com",
             "city": "Rabat",
@@ -563,7 +563,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Musaphics",
             "email": "leilaware@musaphics.com",
             "city": "Rabat",
@@ -574,7 +574,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zentury",
             "email": "leilaware@zentury.com",
             "city": "Rabat",
@@ -585,7 +585,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Genmom",
             "email": "leilaware@genmom.com",
             "city": "Rabat",
@@ -596,7 +596,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Dymi",
             "email": "leilaware@dymi.com",
             "city": "Rabat",
@@ -607,7 +607,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Exoswitch",
             "email": "leilaware@exoswitch.com",
             "city": "Rabat",
@@ -618,7 +618,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Verbus",
             "email": "leilaware@verbus.com",
             "city": "Rabat",
@@ -629,7 +629,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Inquala",
             "email": "leilaware@inquala.com",
             "city": "Rabat",
@@ -640,7 +640,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Fangold",
             "email": "leilaware@fangold.com",
             "city": "Rabat",
@@ -651,7 +651,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Lotron",
             "email": "leilaware@lotron.com",
             "city": "Rabat",
@@ -662,7 +662,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Gronk",
             "email": "leilaware@gronk.com",
             "city": "Rabat",
@@ -673,7 +673,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Snorus",
             "email": "leilaware@snorus.com",
             "city": "Rabat",
@@ -684,7 +684,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Musaphics",
             "email": "leilaware@musaphics.com",
             "city": "Rabat",
@@ -695,7 +695,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zolavo",
             "email": "leilaware@zolavo.com",
             "city": "Rabat",
@@ -706,7 +706,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Orbean",
             "email": "leilaware@orbean.com",
             "city": "Rabat",
@@ -717,7 +717,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Scentric",
             "email": "leilaware@scentric.com",
             "city": "Rabat",
@@ -728,7 +728,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zorromop",
             "email": "leilaware@zorromop.com",
             "city": "Rabat",
@@ -739,7 +739,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Empirica",
             "email": "leilaware@empirica.com",
             "city": "Rabat",
@@ -750,7 +750,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Terragen",
             "email": "leilaware@terragen.com",
             "city": "Rabat",
@@ -761,7 +761,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zaggles",
             "email": "leilaware@zaggles.com",
             "city": "Rabat",
@@ -772,7 +772,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Furnafix",
             "email": "leilaware@furnafix.com",
             "city": "Rabat",
@@ -783,7 +783,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Quilch",
             "email": "leilaware@quilch.com",
             "city": "Rabat",
@@ -794,7 +794,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zentime",
             "email": "leilaware@zentime.com",
             "city": "Rabat",
@@ -805,7 +805,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Irack",
             "email": "leilaware@irack.com",
             "city": "Rabat",
@@ -816,7 +816,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Multron",
             "email": "leilaware@multron.com",
             "city": "Rabat",
@@ -827,7 +827,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Soprano",
             "email": "leilaware@soprano.com",
             "city": "Rabat",
@@ -838,7 +838,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Kneedles",
             "email": "leilaware@kneedles.com",
             "city": "Rabat",
@@ -849,7 +849,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Inear",
             "email": "leilaware@inear.com",
             "city": "Rabat",
@@ -860,7 +860,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zenco",
             "email": "leilaware@zenco.com",
             "city": "Rabat",
@@ -871,7 +871,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Extragene",
             "email": "leilaware@extragene.com",
             "city": "Rabat",
@@ -882,7 +882,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Megall",
             "email": "leilaware@megall.com",
             "city": "Rabat",
@@ -893,7 +893,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Klugger",
             "email": "leilaware@klugger.com",
             "city": "Rabat",
@@ -904,7 +904,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zipak",
             "email": "leilaware@zipak.com",
             "city": "Rabat",
@@ -915,7 +915,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Quotezart",
             "email": "leilaware@quotezart.com",
             "city": "Rabat",
@@ -926,7 +926,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Imaginart",
             "email": "leilaware@imaginart.com",
             "city": "Rabat",
@@ -937,7 +937,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zenolux",
             "email": "leilaware@zenolux.com",
             "city": "Rabat",
@@ -948,7 +948,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Newcube",
             "email": "leilaware@newcube.com",
             "city": "Rabat",
@@ -959,7 +959,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isodrive",
             "email": "leilaware@isodrive.com",
             "city": "Rabat",
@@ -970,7 +970,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Geekosis",
             "email": "leilaware@geekosis.com",
             "city": "Rabat",
@@ -981,7 +981,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Diginetic",
             "email": "leilaware@diginetic.com",
             "city": "Rabat",
@@ -992,7 +992,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Ultrimax",
             "email": "leilaware@ultrimax.com",
             "city": "Rabat",
@@ -1003,7 +1003,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Valreda",
             "email": "leilaware@valreda.com",
             "city": "Rabat",
@@ -1014,7 +1014,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Recritube",
             "email": "leilaware@recritube.com",
             "city": "Rabat",
@@ -1025,7 +1025,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Datagen",
             "email": "leilaware@datagen.com",
             "city": "Rabat",
@@ -1036,7 +1036,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Animalia",
             "email": "leilaware@animalia.com",
             "city": "Rabat",
@@ -1047,7 +1047,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Limage",
             "email": "leilaware@limage.com",
             "city": "Rabat",
@@ -1058,7 +1058,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zanilla",
             "email": "leilaware@zanilla.com",
             "city": "Rabat",
@@ -1069,7 +1069,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Proflex",
             "email": "leilaware@proflex.com",
             "city": "Rabat",
@@ -1080,7 +1080,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Firewax",
             "email": "leilaware@firewax.com",
             "city": "Rabat",
@@ -1091,7 +1091,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Multiflex",
             "email": "leilaware@multiflex.com",
             "city": "Rabat",
@@ -1102,7 +1102,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Colaire",
             "email": "leilaware@colaire.com",
             "city": "Rabat",
@@ -1113,7 +1113,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Cinesanct",
             "email": "leilaware@cinesanct.com",
             "city": "Rabat",
@@ -1124,7 +1124,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Illumity",
             "email": "leilaware@illumity.com",
             "city": "Rabat",
@@ -1135,7 +1135,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Futuris",
             "email": "leilaware@futuris.com",
             "city": "Rabat",
@@ -1146,7 +1146,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Mediot",
             "email": "leilaware@mediot.com",
             "city": "Rabat",
@@ -1157,7 +1157,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Corporana",
             "email": "leilaware@corporana.com",
             "city": "Rabat",
@@ -1168,7 +1168,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Intergeek",
             "email": "leilaware@intergeek.com",
             "city": "Rabat",
@@ -1179,7 +1179,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Quordate",
             "email": "leilaware@quordate.com",
             "city": "Rabat",
@@ -1190,7 +1190,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Anarco",
             "email": "leilaware@anarco.com",
             "city": "Rabat",
@@ -1201,7 +1201,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Medalert",
             "email": "leilaware@medalert.com",
             "city": "Rabat",
@@ -1212,7 +1212,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Gonkle",
             "email": "leilaware@gonkle.com",
             "city": "Rabat",
@@ -1223,7 +1223,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Callflex",
             "email": "leilaware@callflex.com",
             "city": "Rabat",
@@ -1234,7 +1234,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Terascape",
             "email": "leilaware@terascape.com",
             "city": "Rabat",
@@ -1245,7 +1245,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zilencio",
             "email": "leilaware@zilencio.com",
             "city": "Rabat",
@@ -1256,7 +1256,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Digiprint",
             "email": "leilaware@digiprint.com",
             "city": "Rabat",
@@ -1267,7 +1267,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Navir",
             "email": "leilaware@navir.com",
             "city": "Rabat",
@@ -1278,7 +1278,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Capscreen",
             "email": "leilaware@capscreen.com",
             "city": "Rabat",
@@ -1289,7 +1289,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bezal",
             "email": "leilaware@bezal.com",
             "city": "Rabat",
@@ -1300,7 +1300,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Insurety",
             "email": "leilaware@insurety.com",
             "city": "Rabat",
@@ -1311,7 +1311,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Deminimum",
             "email": "leilaware@deminimum.com",
             "city": "Rabat",
@@ -1322,7 +1322,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Insectus",
             "email": "leilaware@insectus.com",
             "city": "Rabat",
@@ -1333,7 +1333,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Slambda",
             "email": "leilaware@slambda.com",
             "city": "Rabat",
@@ -1344,7 +1344,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bisba",
             "email": "leilaware@bisba.com",
             "city": "Rabat",
@@ -1355,7 +1355,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zoarere",
             "email": "leilaware@zoarere.com",
             "city": "Rabat",
@@ -1366,7 +1366,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Rubadub",
             "email": "leilaware@rubadub.com",
             "city": "Rabat",
@@ -1377,7 +1377,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Fitcore",
             "email": "leilaware@fitcore.com",
             "city": "Rabat",
@@ -1388,7 +1388,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Mixers",
             "email": "leilaware@mixers.com",
             "city": "Rabat",
@@ -1399,7 +1399,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Exozent",
             "email": "leilaware@exozent.com",
             "city": "Rabat",
@@ -1410,7 +1410,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Koffee",
             "email": "leilaware@koffee.com",
             "city": "Rabat",
@@ -1421,7 +1421,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Repetwire",
             "email": "leilaware@repetwire.com",
             "city": "Rabat",
@@ -1432,7 +1432,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Grupoli",
             "email": "leilaware@grupoli.com",
             "city": "Rabat",
@@ -1443,7 +1443,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comtrail",
             "email": "leilaware@comtrail.com",
             "city": "Rabat",
@@ -1454,7 +1454,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Pasturia",
             "email": "leilaware@pasturia.com",
             "city": "Rabat",
@@ -1465,7 +1465,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Mangelica",
             "email": "leilaware@mangelica.com",
             "city": "Rabat",
@@ -1476,7 +1476,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Delphide",
             "email": "leilaware@delphide.com",
             "city": "Rabat",
@@ -1487,7 +1487,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Franscene",
             "email": "leilaware@franscene.com",
             "city": "Rabat",
@@ -1498,7 +1498,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comtest",
             "email": "leilaware@comtest.com",
             "city": "Rabat",
@@ -1509,7 +1509,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Krag",
             "email": "leilaware@krag.com",
             "city": "Rabat",
@@ -1520,7 +1520,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isotronic",
             "email": "leilaware@isotronic.com",
             "city": "Rabat",
@@ -1531,7 +1531,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sultrax",
             "email": "leilaware@sultrax.com",
             "city": "Rabat",
@@ -1542,7 +1542,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Veraq",
             "email": "leilaware@veraq.com",
             "city": "Rabat",
@@ -1553,7 +1553,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Plasmos",
             "email": "leilaware@plasmos.com",
             "city": "Rabat",
@@ -1564,7 +1564,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comstruct",
             "email": "leilaware@comstruct.com",
             "city": "Rabat",
@@ -1575,7 +1575,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isosphere",
             "email": "leilaware@isosphere.com",
             "city": "Rabat",
@@ -1586,7 +1586,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Diginetic",
             "email": "leilaware@diginetic.com",
             "city": "Rabat",
@@ -1597,7 +1597,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Digiprint",
             "email": "leilaware@digiprint.com",
             "city": "Rabat",
@@ -1608,7 +1608,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zaj",
             "email": "leilaware@zaj.com",
             "city": "Rabat",
@@ -1619,7 +1619,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bluplanet",
             "email": "leilaware@bluplanet.com",
             "city": "Rabat",
@@ -1630,7 +1630,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zizzle",
             "email": "leilaware@zizzle.com",
             "city": "Rabat",
@@ -1641,7 +1641,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Viasia",
             "email": "leilaware@viasia.com",
             "city": "Rabat",
@@ -1652,7 +1652,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Skyplex",
             "email": "leilaware@skyplex.com",
             "city": "Rabat",
@@ -1663,7 +1663,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Capscreen",
             "email": "leilaware@capscreen.com",
             "city": "Rabat",
@@ -1674,7 +1674,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zaya",
             "email": "leilaware@zaya.com",
             "city": "Rabat",
@@ -1685,7 +1685,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Elpro",
             "email": "leilaware@elpro.com",
             "city": "Rabat",
@@ -1696,7 +1696,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Ovium",
             "email": "leilaware@ovium.com",
             "city": "Rabat",
@@ -1707,7 +1707,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sportan",
             "email": "leilaware@sportan.com",
             "city": "Rabat",
@@ -1718,7 +1718,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Imaginart",
             "email": "leilaware@imaginart.com",
             "city": "Rabat",
@@ -1729,7 +1729,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Otherway",
             "email": "leilaware@otherway.com",
             "city": "Rabat",
@@ -1740,7 +1740,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Nitracyr",
             "email": "leilaware@nitracyr.com",
             "city": "Rabat",
@@ -1751,7 +1751,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Flyboyz",
             "email": "leilaware@flyboyz.com",
             "city": "Rabat",
@@ -1762,7 +1762,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Ultrasure",
             "email": "leilaware@ultrasure.com",
             "city": "Rabat",
@@ -1773,7 +1773,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Geekular",
             "email": "leilaware@geekular.com",
             "city": "Rabat",
@@ -1784,7 +1784,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bedlam",
             "email": "leilaware@bedlam.com",
             "city": "Rabat",
@@ -1795,7 +1795,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Speedbolt",
             "email": "leilaware@speedbolt.com",
             "city": "Rabat",
@@ -1806,7 +1806,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zaggles",
             "email": "leilaware@zaggles.com",
             "city": "Rabat",
@@ -1817,7 +1817,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Anixang",
             "email": "leilaware@anixang.com",
             "city": "Rabat",
@@ -1828,7 +1828,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Gonkle",
             "email": "leilaware@gonkle.com",
             "city": "Rabat",
@@ -1839,7 +1839,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Besto",
             "email": "leilaware@besto.com",
             "city": "Rabat",
@@ -1850,7 +1850,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Nipaz",
             "email": "leilaware@nipaz.com",
             "city": "Rabat",
@@ -1861,7 +1861,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Tropoli",
             "email": "leilaware@tropoli.com",
             "city": "Rabat",
@@ -1872,7 +1872,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Quilch",
             "email": "leilaware@quilch.com",
             "city": "Rabat",
@@ -1883,7 +1883,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Waretel",
             "email": "leilaware@waretel.com",
             "city": "Rabat",
@@ -1894,7 +1894,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Senmao",
             "email": "leilaware@senmao.com",
             "city": "Rabat",
@@ -1905,7 +1905,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Datacator",
             "email": "leilaware@datacator.com",
             "city": "Rabat",
@@ -1916,7 +1916,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zensure",
             "email": "leilaware@zensure.com",
             "city": "Rabat",
@@ -1927,7 +1927,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zillidium",
             "email": "leilaware@zillidium.com",
             "city": "Rabat",
@@ -1938,7 +1938,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Apextri",
             "email": "leilaware@apextri.com",
             "city": "Rabat",
@@ -1949,7 +1949,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bittor",
             "email": "leilaware@bittor.com",
             "city": "Rabat",
@@ -1960,7 +1960,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Elemantra",
             "email": "leilaware@elemantra.com",
             "city": "Rabat",
@@ -1971,7 +1971,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Panzent",
             "email": "leilaware@panzent.com",
             "city": "Rabat",
@@ -1982,7 +1982,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Inear",
             "email": "leilaware@inear.com",
             "city": "Rabat",
@@ -1993,7 +1993,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Rockabye",
             "email": "leilaware@rockabye.com",
             "city": "Rabat",
@@ -2004,7 +2004,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Dadabase",
             "email": "leilaware@dadabase.com",
             "city": "Rabat",
@@ -2015,7 +2015,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Everest",
             "email": "leilaware@everest.com",
             "city": "Rabat",
@@ -2026,7 +2026,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Colaire",
             "email": "leilaware@colaire.com",
             "city": "Rabat",
@@ -2037,7 +2037,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comcur",
             "email": "leilaware@comcur.com",
             "city": "Rabat",
@@ -2048,7 +2048,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Pholio",
             "email": "leilaware@pholio.com",
             "city": "Rabat",
@@ -2059,7 +2059,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Datagen",
             "email": "leilaware@datagen.com",
             "city": "Rabat",
@@ -2070,7 +2070,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Progenex",
             "email": "leilaware@progenex.com",
             "city": "Rabat",
@@ -2081,7 +2081,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Nixelt",
             "email": "leilaware@nixelt.com",
             "city": "Rabat",
@@ -2092,7 +2092,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Kozgene",
             "email": "leilaware@kozgene.com",
             "city": "Rabat",
@@ -2103,7 +2103,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Buzzness",
             "email": "leilaware@buzzness.com",
             "city": "Rabat",
@@ -2114,7 +2114,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Mondicil",
             "email": "leilaware@mondicil.com",
             "city": "Rabat",
@@ -2125,7 +2125,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Filodyne",
             "email": "leilaware@filodyne.com",
             "city": "Rabat",
@@ -2136,7 +2136,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sultrax",
             "email": "leilaware@sultrax.com",
             "city": "Rabat",
@@ -2147,7 +2147,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Orbixtar",
             "email": "leilaware@orbixtar.com",
             "city": "Rabat",
@@ -2158,7 +2158,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Injoy",
             "email": "leilaware@injoy.com",
             "city": "Rabat",
@@ -2169,7 +2169,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Corporana",
             "email": "leilaware@corporana.com",
             "city": "Rabat",
@@ -2180,7 +2180,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Trollery",
             "email": "leilaware@trollery.com",
             "city": "Rabat",
@@ -2191,7 +2191,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Suretech",
             "email": "leilaware@suretech.com",
             "city": "Rabat",
@@ -2202,7 +2202,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Medicroix",
             "email": "leilaware@medicroix.com",
             "city": "Rabat",
@@ -2213,7 +2213,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zilidium",
             "email": "leilaware@zilidium.com",
             "city": "Rabat",
@@ -2224,7 +2224,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Evidends",
             "email": "leilaware@evidends.com",
             "city": "Rabat",
@@ -2235,7 +2235,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Obones",
             "email": "leilaware@obones.com",
             "city": "Rabat",
@@ -2246,7 +2246,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bovis",
             "email": "leilaware@bovis.com",
             "city": "Rabat",
@@ -2257,7 +2257,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Vitricomp",
             "email": "leilaware@vitricomp.com",
             "city": "Rabat",
@@ -2268,7 +2268,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Apextri",
             "email": "leilaware@apextri.com",
             "city": "Rabat",
@@ -2279,7 +2279,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Tropoli",
             "email": "leilaware@tropoli.com",
             "city": "Rabat",
@@ -2290,7 +2290,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comvoy",
             "email": "leilaware@comvoy.com",
             "city": "Rabat",
@@ -2301,7 +2301,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Eyeris",
             "email": "leilaware@eyeris.com",
             "city": "Rabat",
@@ -2312,7 +2312,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Genesynk",
             "email": "leilaware@genesynk.com",
             "city": "Rabat",
@@ -2323,7 +2323,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Hydrocom",
             "email": "leilaware@hydrocom.com",
             "city": "Rabat",
@@ -2334,7 +2334,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Mondicil",
             "email": "leilaware@mondicil.com",
             "city": "Rabat",
@@ -2345,7 +2345,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Filodyne",
             "email": "leilaware@filodyne.com",
             "city": "Rabat",
@@ -2356,7 +2356,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sultrax",
             "email": "leilaware@sultrax.com",
             "city": "Rabat",
@@ -2367,7 +2367,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Orbixtar",
             "email": "leilaware@orbixtar.com",
             "city": "Rabat",
@@ -2378,7 +2378,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Injoy",
             "email": "leilaware@injoy.com",
             "city": "Rabat",
@@ -2389,7 +2389,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Corporana",
             "email": "leilaware@corporana.com",
             "city": "Rabat",
@@ -2400,7 +2400,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Trollery",
             "email": "leilaware@trollery.com",
             "city": "Rabat",
@@ -2411,7 +2411,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Suretech",
             "email": "leilaware@suretech.com",
             "city": "Rabat",
@@ -2422,7 +2422,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Medicroix",
             "email": "leilaware@medicroix.com",
             "city": "Rabat",
@@ -2433,7 +2433,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zilidium",
             "email": "leilaware@zilidium.com",
             "city": "Rabat",
@@ -2444,7 +2444,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Evidends",
             "email": "leilaware@evidends.com",
             "city": "Rabat",
@@ -2455,7 +2455,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Obones",
             "email": "leilaware@obones.com",
             "city": "Rabat",
@@ -2466,7 +2466,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bovis",
             "email": "leilaware@bovis.com",
             "city": "Rabat",
@@ -2477,7 +2477,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Vitricomp",
             "email": "leilaware@vitricomp.com",
             "city": "Rabat",
@@ -2488,7 +2488,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Apextri",
             "email": "leilaware@apextri.com",
             "city": "Rabat",
@@ -2499,7 +2499,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Tropoli",
             "email": "leilaware@tropoli.com",
             "city": "Rabat",
@@ -2510,7 +2510,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comvoy",
             "email": "leilaware@comvoy.com",
             "city": "Rabat",
@@ -2521,7 +2521,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Eyeris",
             "email": "leilaware@eyeris.com",
             "city": "Rabat",
@@ -2532,7 +2532,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Genesynk",
             "email": "leilaware@genesynk.com",
             "city": "Rabat",
@@ -2543,7 +2543,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Hydrocom",
             "email": "leilaware@hydrocom.com",
             "city": "Rabat",
@@ -2554,7 +2554,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Kage",
             "email": "leilaware@kage.com",
             "city": "Rabat",
@@ -2565,7 +2565,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zedalis",
             "email": "leilaware@zedalis.com",
             "city": "Rabat",
@@ -2576,7 +2576,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zillan",
             "email": "leilaware@zillan.com",
             "city": "Rabat",
@@ -2587,7 +2587,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Vurbo",
             "email": "leilaware@vurbo.com",
             "city": "Rabat",
@@ -2598,7 +2598,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Magnemo",
             "email": "leilaware@magnemo.com",
             "city": "Rabat",
@@ -2609,7 +2609,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Providco",
             "email": "leilaware@providco.com",
             "city": "Rabat",
@@ -2620,7 +2620,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Tubalum",
             "email": "leilaware@tubalum.com",
             "city": "Rabat",
@@ -2631,7 +2631,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Gynko",
             "email": "leilaware@gynko.com",
             "city": "Rabat",
@@ -2642,7 +2642,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Genekom",
             "email": "leilaware@genekom.com",
             "city": "Rabat",
@@ -2653,7 +2653,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Acium",
             "email": "leilaware@acium.com",
             "city": "Rabat",
@@ -2664,7 +2664,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Talkalot",
             "email": "leilaware@talkalot.com",
             "city": "Rabat",
@@ -2675,7 +2675,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Illumity",
             "email": "leilaware@illumity.com",
             "city": "Rabat",
@@ -2686,7 +2686,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Acrodance",
             "email": "leilaware@acrodance.com",
             "city": "Rabat",
@@ -2697,7 +2697,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Powernet",
             "email": "leilaware@powernet.com",
             "city": "Rabat",
@@ -2708,7 +2708,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Pyramia",
             "email": "leilaware@pyramia.com",
             "city": "Rabat",
@@ -2719,7 +2719,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Corporana",
             "email": "leilaware@corporana.com",
             "city": "Rabat",
@@ -2730,7 +2730,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isotronic",
             "email": "leilaware@isotronic.com",
             "city": "Rabat",
@@ -2741,7 +2741,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Menbrain",
             "email": "leilaware@menbrain.com",
             "city": "Rabat",
@@ -2752,7 +2752,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Aquacine",
             "email": "leilaware@aquacine.com",
             "city": "Rabat",
@@ -2763,7 +2763,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Geekko",
             "email": "leilaware@geekko.com",
             "city": "Rabat",
@@ -2774,7 +2774,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Netility",
             "email": "leilaware@netility.com",
             "city": "Rabat",
@@ -2785,7 +2785,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Reversus",
             "email": "leilaware@reversus.com",
             "city": "Rabat",
@@ -2796,7 +2796,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sureplex",
             "email": "leilaware@sureplex.com",
             "city": "Rabat",
@@ -2807,7 +2807,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Norali",
             "email": "leilaware@norali.com",
             "city": "Rabat",
@@ -2818,7 +2818,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Softmicro",
             "email": "leilaware@softmicro.com",
             "city": "Rabat",
@@ -2829,7 +2829,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comcur",
             "email": "leilaware@comcur.com",
             "city": "Rabat",
@@ -2840,7 +2840,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Pyrami",
             "email": "leilaware@pyrami.com",
             "city": "Rabat",
@@ -2851,7 +2851,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Schoolio",
             "email": "leilaware@schoolio.com",
             "city": "Rabat",
@@ -2862,7 +2862,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Scenty",
             "email": "leilaware@scenty.com",
             "city": "Rabat",
@@ -2873,7 +2873,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Malathion",
             "email": "leilaware@malathion.com",
             "city": "Rabat",
@@ -2884,7 +2884,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zboo",
             "email": "leilaware@zboo.com",
             "city": "Rabat",
@@ -2895,7 +2895,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Handshake",
             "email": "leilaware@handshake.com",
             "city": "Rabat",
@@ -2906,7 +2906,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Edecine",
             "email": "leilaware@edecine.com",
             "city": "Rabat",
@@ -2917,7 +2917,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Terragen",
             "email": "leilaware@terragen.com",
             "city": "Rabat",
@@ -2928,7 +2928,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Prowaste",
             "email": "leilaware@prowaste.com",
             "city": "Rabat",
@@ -2939,7 +2939,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Blurrybus",
             "email": "leilaware@blurrybus.com",
             "city": "Rabat",
@@ -2950,7 +2950,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Avit",
             "email": "leilaware@avit.com",
             "city": "Rabat",
@@ -2961,7 +2961,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zentia",
             "email": "leilaware@zentia.com",
             "city": "Rabat",
@@ -2972,7 +2972,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Xerex",
             "email": "leilaware@xerex.com",
             "city": "Rabat",
@@ -2983,7 +2983,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Architax",
             "email": "leilaware@architax.com",
             "city": "Rabat",
@@ -2994,7 +2994,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Wazzu",
             "email": "leilaware@wazzu.com",
             "city": "Rabat",
@@ -3005,7 +3005,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Parleynet",
             "email": "leilaware@parleynet.com",
             "city": "Rabat",
@@ -3016,7 +3016,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Talkola",
             "email": "leilaware@talkola.com",
             "city": "Rabat",
@@ -3027,7 +3027,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Housedown",
             "email": "leilaware@housedown.com",
             "city": "Rabat",
@@ -3038,7 +3038,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Ovium",
             "email": "leilaware@ovium.com",
             "city": "Rabat",
@@ -3049,7 +3049,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Reversus",
             "email": "leilaware@reversus.com",
             "city": "Rabat",
@@ -3060,7 +3060,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Kiosk",
             "email": "leilaware@kiosk.com",
             "city": "Rabat",
@@ -3071,7 +3071,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Unia",
             "email": "leilaware@unia.com",
             "city": "Rabat",
@@ -3082,7 +3082,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Aquasseur",
             "email": "leilaware@aquasseur.com",
             "city": "Rabat",
@@ -3093,7 +3093,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Duflex",
             "email": "leilaware@duflex.com",
             "city": "Rabat",
@@ -3104,7 +3104,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zenolux",
             "email": "leilaware@zenolux.com",
             "city": "Rabat",
@@ -3115,7 +3115,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Voratak",
             "email": "leilaware@voratak.com",
             "city": "Rabat",
@@ -3126,7 +3126,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Canopoly",
             "email": "leilaware@canopoly.com",
             "city": "Rabat",
@@ -3137,7 +3137,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Farmex",
             "email": "leilaware@farmex.com",
             "city": "Rabat",
@@ -3148,7 +3148,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Digiprint",
             "email": "leilaware@digiprint.com",
             "city": "Rabat",
@@ -3159,7 +3159,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Dentrex",
             "email": "leilaware@dentrex.com",
             "city": "Rabat",
@@ -3170,7 +3170,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Securia",
             "email": "leilaware@securia.com",
             "city": "Rabat",
@@ -3181,7 +3181,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Ezent",
             "email": "leilaware@ezent.com",
             "city": "Rabat",
@@ -3192,7 +3192,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Microluxe",
             "email": "leilaware@microluxe.com",
             "city": "Rabat",
@@ -3203,7 +3203,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Rooforia",
             "email": "leilaware@rooforia.com",
             "city": "Rabat",
@@ -3214,7 +3214,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Rugstars",
             "email": "leilaware@rugstars.com",
             "city": "Rabat",
@@ -3225,7 +3225,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Futuris",
             "email": "leilaware@futuris.com",
             "city": "Rabat",
@@ -3236,7 +3236,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Knowlysis",
             "email": "leilaware@knowlysis.com",
             "city": "Rabat",
@@ -3247,7 +3247,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sportan",
             "email": "leilaware@sportan.com",
             "city": "Rabat",
@@ -3258,7 +3258,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Vendblend",
             "email": "leilaware@vendblend.com",
             "city": "Rabat",
@@ -3269,7 +3269,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Gynko",
             "email": "leilaware@gynko.com",
             "city": "Rabat",
@@ -3280,7 +3280,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Anivet",
             "email": "leilaware@anivet.com",
             "city": "Rabat",
@@ -3291,7 +3291,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Emoltra",
             "email": "leilaware@emoltra.com",
             "city": "Rabat",
@@ -3302,7 +3302,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Illumity",
             "email": "leilaware@illumity.com",
             "city": "Rabat",
@@ -3313,7 +3313,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Austech",
             "email": "leilaware@austech.com",
             "city": "Rabat",
@@ -3324,7 +3324,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Boink",
             "email": "leilaware@boink.com",
             "city": "Rabat",
@@ -3335,7 +3335,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Recritube",
             "email": "leilaware@recritube.com",
             "city": "Rabat",
@@ -3346,7 +3346,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Comtrak",
             "email": "leilaware@comtrak.com",
             "city": "Rabat",
@@ -3357,7 +3357,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Vicon",
             "email": "leilaware@vicon.com",
             "city": "Rabat",
@@ -3368,7 +3368,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Strezzo",
             "email": "leilaware@strezzo.com",
             "city": "Rabat",
@@ -3379,7 +3379,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Qimonk",
             "email": "leilaware@qimonk.com",
             "city": "Rabat",
@@ -3390,7 +3390,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isonus",
             "email": "leilaware@isonus.com",
             "city": "Rabat",
@@ -3401,7 +3401,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Utarian",
             "email": "leilaware@utarian.com",
             "city": "Rabat",
@@ -3412,7 +3412,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Harmoney",
             "email": "leilaware@harmoney.com",
             "city": "Rabat",
@@ -3423,7 +3423,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isotrack",
             "email": "leilaware@isotrack.com",
             "city": "Rabat",
@@ -3434,7 +3434,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Syntac",
             "email": "leilaware@syntac.com",
             "city": "Rabat",
@@ -3445,7 +3445,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Marvane",
             "email": "leilaware@marvane.com",
             "city": "Rabat",
@@ -3456,7 +3456,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Biotica",
             "email": "leilaware@biotica.com",
             "city": "Rabat",
@@ -3467,7 +3467,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Apex",
             "email": "leilaware@apex.com",
             "city": "Rabat",
@@ -3478,7 +3478,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sustenza",
             "email": "leilaware@sustenza.com",
             "city": "Rabat",
@@ -3489,7 +3489,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Dreamia",
             "email": "leilaware@dreamia.com",
             "city": "Rabat",
@@ -3500,7 +3500,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Concility",
             "email": "leilaware@concility.com",
             "city": "Rabat",
@@ -3511,7 +3511,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Cogentry",
             "email": "leilaware@cogentry.com",
             "city": "Rabat",
@@ -3522,7 +3522,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Zounds",
             "email": "leilaware@zounds.com",
             "city": "Rabat",
@@ -3533,7 +3533,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Unq",
             "email": "leilaware@unq.com",
             "city": "Rabat",
@@ -3544,7 +3544,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Accusage",
             "email": "leilaware@accusage.com",
             "city": "Rabat",
@@ -3555,7 +3555,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Corecom",
             "email": "leilaware@corecom.com",
             "city": "Rabat",
@@ -3566,7 +3566,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Incubus",
             "email": "leilaware@incubus.com",
             "city": "Rabat",
@@ -3577,7 +3577,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Venoflex",
             "email": "leilaware@venoflex.com",
             "city": "Rabat",
@@ -3588,7 +3588,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Slambda",
             "email": "leilaware@slambda.com",
             "city": "Rabat",
@@ -3599,7 +3599,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Ecraze",
             "email": "leilaware@ecraze.com",
             "city": "Rabat",
@@ -3610,7 +3610,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bullzone",
             "email": "leilaware@bullzone.com",
             "city": "Rabat",
@@ -3621,7 +3621,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Enomen",
             "email": "leilaware@enomen.com",
             "city": "Rabat",
@@ -3632,7 +3632,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Isoswitch",
             "email": "leilaware@isoswitch.com",
             "city": "Rabat",
@@ -3643,7 +3643,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Extragene",
             "email": "leilaware@extragene.com",
             "city": "Rabat",
@@ -3654,7 +3654,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Eyeris",
             "email": "leilaware@eyeris.com",
             "city": "Rabat",
@@ -3665,7 +3665,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Verton",
             "email": "leilaware@verton.com",
             "city": "Rabat",
@@ -3676,7 +3676,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Conjurica",
             "email": "leilaware@conjurica.com",
             "city": "Rabat",
@@ -3687,7 +3687,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Sulfax",
             "email": "leilaware@sulfax.com",
             "city": "Rabat",
@@ -3698,7 +3698,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Bleendot",
             "email": "leilaware@bleendot.com",
             "city": "Rabat",
@@ -3709,7 +3709,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Kineticut",
             "email": "leilaware@kineticut.com",
             "city": "Rabat",
@@ -3720,7 +3720,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Petigems",
             "email": "leilaware@petigems.com",
             "city": "Rabat",
@@ -3731,7 +3731,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Adornica",
             "email": "leilaware@adornica.com",
             "city": "Rabat",
@@ -3742,7 +3742,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Injoy",
             "email": "leilaware@injoy.com",
             "city": "Rabat",
@@ -3753,7 +3753,7 @@
     {
         "model": "api.shop",
         "fields": {
-            "picture": "http://placehold.it/150x150",
+            "picture": "http://placehold.it/80x80",
             "name": "Flexigen",
             "email": "leilaware@flexigen.com",
             "city": "Rabat",
