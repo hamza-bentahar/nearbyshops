@@ -25,4 +25,5 @@ urlpatterns = [
     path('about/', index_view, name='about'),
     path('login/', index_view, name='login'),
     path('register/', index_view, name='register'),
+    path('likedshops/', index_view, name='likedshops'),
 ]

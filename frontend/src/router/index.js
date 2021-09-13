@@ -23,6 +23,11 @@ const routes = [
     component: () => import('../views/Register.vue'),
     meta: { guest: true },
   },
+  {
+    path: '/likedshops',
+    name: 'LikedShops',
+    component: () => import('../views/LikedShops.vue'),
+  },
 ];
 
 const router = new VueRouter({

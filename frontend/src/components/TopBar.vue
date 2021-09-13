@@ -21,6 +21,7 @@
         <v-btn to="/register" raised elevation="4" class="ma-3">Register</v-btn>
       </div>
       <div v-else>
+        <v-btn to="/likedshops" raised elevation="4" class="ma-3">Liked Shops</v-btn>
         <v-btn @click="logout" raised elevation="4" class="ma-3">Logout</v-btn>
       </div>
     </v-app-bar>

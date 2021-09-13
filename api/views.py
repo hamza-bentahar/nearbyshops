@@ -85,6 +85,29 @@ class ShopList(ListAPIView):
         return Shop.objects.raw(query)
 
 
+class LikedShopList(ListAPIView):
+    queryset = Shop.objects.all()
+    serializer_class = ShopSerializer
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        params = self.request.query_params
+        if 'geo_lat' in params and 'geo_long' in params:
+            query = "SELECT *, " \
+                    "(((acos(sin((%s*pi()/180)) * sin((`latitude`*pi()/180)) + cos((%s*pi()/180)) * cos((`latitude`*pi()/180)) * cos(((%s- `longitude`) * pi()/180)))) * 180/pi()) * 60 * 1.1515 * 1.609344) as distance " \
+                    "FROM `api_shop` " \
+                    "INNER JOIN `api_shopuser` on `api_shop`.id = `api_shopuser`.shop_id " \
+                    "WHERE user_id = %s " \
+                    "ORDER BY distance"
+            return Shop.objects.raw(query, [params['geo_lat'], params['geo_lat'], params['geo_long'], self.request.user.id])
+        query = "SELECT *, -1 as distance " \
+                "FROM api_shop " \
+                "INNER JOIN api_shopuser on api_shop.id = api_shopuser.shop_id " \
+                "WHERE user_id = %s"
+        return Shop.objects.raw(query, [self.request.user.id])
+
+
 class ShopDetail(RetrieveAPIView):
     queryset = Shop.objects.all()
     serializer_class = ShopSerializer

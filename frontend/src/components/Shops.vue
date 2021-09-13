@@ -42,6 +42,12 @@ export default {
   components: {
     Shop,
   },
+  props: {
+    source: {
+      type: String,
+      default: '/api/shops',
+    },
+  },
   data: () => ({
     shops: {},
     position: null,
@@ -84,7 +90,7 @@ export default {
           params.geo_lat = this.position.coords.latitude;
           params.geo_long = this.position.coords.longitude;
         }
-        const shops = await axios.get('/api/shops', { params });
+        const shops = await axios.get(this.source, { params });
         this.shops = shops.data;
       } catch (e) {
         console.log(e);
