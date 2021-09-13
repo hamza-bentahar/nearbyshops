@@ -77,7 +77,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     ),
     'DEFAULT_PAGINATION_CLASS': 'api.pagination.PageNumberPaginationWithCount',
-    'PAGE_SIZE': 20,
+    'PAGE_SIZE': 24,
     'COERCE_DECIMAL_TO_STRING': False
 }
 
