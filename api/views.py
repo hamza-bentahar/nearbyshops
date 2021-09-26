@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
 from .serializers import ShopSerializer, ShopUserSerializer, RegisterSerializer
-from .models import Shop, ShopUser
+from .models import Shop, ShopUser, get_shops_by_distance
 from django.views.generic import TemplateView
 from django.views.decorators.cache import never_cache
 from django.views.decorators.csrf import ensure_csrf_cookie
@@ -76,13 +76,10 @@ class ShopList(ListAPIView):
 
     def get_queryset(self):
         params = self.request.query_params
+        user_latitude, user_longitude = None, None
         if 'geo_lat' in params and 'geo_long' in params:
-            query = "SELECT *, " \
-                    "(((acos(sin((%s*pi()/180)) * sin((`latitude`*pi()/180)) + cos((%s*pi()/180)) * cos((`latitude`*pi()/180)) * cos(((%s- `longitude`) * pi()/180)))) * 180/pi()) * 60 * 1.1515 * 1.609344) as distance " \
-                    "FROM `api_shop` ORDER BY distance"
-            return Shop.objects.raw(query, [params['geo_lat'], params['geo_lat'], params['geo_long']])
-        query = "SELECT *, -1 as distance FROM `api_shop`"
-        return Shop.objects.raw(query)
+            user_latitude, user_longitude = params['geo_lat'], params['geo_long']
+        return get_shops_by_distance(user_latitude, user_longitude)
 
 
 class LikedShopList(ListAPIView):
@@ -112,6 +109,13 @@ class LikedShopList(ListAPIView):
 class ShopDetail(RetrieveAPIView):
     queryset = Shop.objects.all()
     serializer_class = ShopSerializer
+
+    def get_queryset(self):
+        params = self.request.query_params
+        user_latitude, user_longitude = None, None
+        if 'geo_lat' in params and 'geo_long' in params:
+            user_latitude, user_longitude = params['geo_lat'], params['geo_long']
+        return get_shops_by_distance(user_latitude, user_longitude)
 
 
 class UnlikeShop(APIView):
