@@ -23,6 +23,10 @@ class AuthenticationTest(APITestCase):
 class ShopTest(APITestCase):
     fixtures = ['shops_list.json']
 
+    def setUp(self):
+        self.superuser = User.objects.create_superuser('john', 'john@doe.com', 'password123-')
+        self.client.login(username='john', password='password123-')
+
     def test_get_shop_list(self):
         response = self.client.get(reverse('shop-list'), format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
@@ -31,13 +35,8 @@ class ShopTest(APITestCase):
         response = self.client.get(reverse('shop-detail', kwargs={'pk': 1}), format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
-
-class LikedShopsTest(APITestCase):
-
-    def setUp(self):
-        self.superuser = User.objects.create_superuser('john', 'john@doe.com', 'password123-')
-        self.client.login(username='john', password='password123-')
-
-    def test_get_liked_shops(self):
+    def test_like_and_get_liked_shops(self):
+        self.client.post(reverse('shop-like', kwargs={'shop_pk': 1}), format='json')
         response = self.client.get(reverse('liked-shops'), format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(response.json()['results'][0]['id'], 1)
