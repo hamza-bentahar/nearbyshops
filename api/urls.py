@@ -10,7 +10,7 @@ urlpatterns = [
     path('likedshops/', LikedShopList.as_view(), name='liked-shops'),
     path('login/', login_view, name='Login'),
     path('logout/', Logout.as_view(), name='Logout'),
-    path('register/', RegisterView.as_view(), name='register'),
+    path('register/', RegisterView.as_view(), name='register-view'),
     path('set-csrf-cookie/', set_csrf_token, name='set_csrf_token'),
     path('isauthenticated/', IsUserAuthenticated.as_view(), name='is_authenticated'),
 ]
