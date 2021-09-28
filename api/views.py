@@ -55,9 +55,7 @@ class Login(APIView):
         password = data.get('password')
         if not username or not password:
             return JsonResponse({
-                "errors": {
-                    "__all__": "Please enter both username and password"
-                }
+                "detail": "Please enter both username and password"
             }, status=400)
         user = authenticate(username=username, password=password)
         if user is not None:
