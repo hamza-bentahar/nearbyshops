@@ -44,31 +44,32 @@ class IsUserAuthenticated(APIView):
             })
 
 
-@require_POST
-def login_view(request):
-    """
-    This will be `/api/login/` on `urls.py`
-    """
-    data = json.loads(request.body)
-    username = data.get('username')
-    password = data.get('password')
-    if username is None or password is None:
-        return JsonResponse({
-            "errors": {
-                "__all__": "Please enter both username and password"
-            }
-        }, status=400)
-    user = authenticate(username=username, password=password)
-    if user is not None:
-        login(request, user)
-        return JsonResponse({
-            "detail": "authenticated",
-            "user": str(user)
-        })
-    return JsonResponse(
-        {"detail": "Invalid credentials"},
-        status=400,
-    )
+class Login(APIView):
+    def post(self, request):
+        """
+        This will be `/api/login/` on `urls.py`
+        """
+
+        data = json.loads(request.body)
+        username = data.get('username')
+        password = data.get('password')
+        if not username or not password:
+            return JsonResponse({
+                "errors": {
+                    "__all__": "Please enter both username and password"
+                }
+            }, status=400)
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return JsonResponse({
+                "detail": "authenticated",
+                "user": str(user)
+            })
+        return JsonResponse(
+            {"detail": "Invalid credentials"},
+            status=400,
+        )
 
 
 class ShopList(ListAPIView):
@@ -93,7 +94,7 @@ class LikedShopList(ListAPIView):
         user_latitude, user_longitude = None, None
         if 'geo_lat' in params and 'geo_long' in params:
             user_latitude, user_longitude = params['geo_lat'], params['geo_long']
-        return get_shops_by_distance(user_latitude, user_longitude)\
+        return get_shops_by_distance(user_latitude, user_longitude) \
             .filter(shopuser__user=self.request.user.id)
 
 
